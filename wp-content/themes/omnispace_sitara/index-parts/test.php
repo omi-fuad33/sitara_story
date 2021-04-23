@@ -1,0 +1,1 @@
+<div class="test"><?php echo "hello omi" ?></div>

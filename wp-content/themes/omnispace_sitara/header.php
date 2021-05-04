@@ -26,7 +26,14 @@
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'omnispace_sitara' ); ?></a>
 
 	<header id="masthead" class="site-header">
-		<div class="o_header_container"></div>
+		<div class="o_header_container">
+			<div class="o_logo_container">
+				<img src="<?php echo get_template_directory_uri(); ?>/images/sitara_logo.jpg" alt="logo not found">
+			</div>
+			<div class="o_navigation_menu_container">
+
+			</div>
+		</div>
 		<nav id="site-navigation" class="main-navigation">
 			<?php
 			wp_nav_menu(

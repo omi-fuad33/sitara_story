@@ -9,3 +9,14 @@
     height: 50px;
     background-color: #000000;
 }
+.o_logo_container{
+    width: 20%;
+    float: left;
+    /* border: 1px solid red; */
+}
+.o_navbar_logo{
+    padding-left: 50%;
+    height: 47px;
+    object-fit: cover;
+    margin-top: 3px;
+}

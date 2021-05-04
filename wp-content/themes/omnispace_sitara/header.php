@@ -28,7 +28,7 @@
 	<header id="masthead" class="site-header">
 		<div class="o_header_container">
 			<div class="o_logo_container">
-				<img src="<?php echo get_template_directory_uri(); ?>/images/sitara_logo.jpg" alt="logo not found">
+				<img class="o_navbar_logo" src="<?php echo get_template_directory_uri(); ?>/images/sitara_logo.jpg" alt="logo not found">
 			</div>
 			<div class="o_navigation_menu_container">
 

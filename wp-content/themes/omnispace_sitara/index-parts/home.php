@@ -13,7 +13,7 @@
             <p>We’re leading a global community of humanitarians to create a future where everyone can prosper.</p>
         </div>
         <div class="col-lg-6 o_mission_img">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/mission.jpg" alt="image not found">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/mission.JPG" alt="image not found">
         </div>
     </div>
 </div>
@@ -42,17 +42,17 @@
     <h3 class="o_mission_title">PRESS RELEASE</h3>
     <div class="row">
         <div class="col-lg-4 o_pr_left">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/pr-left-pic.jpg" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/pr-left-pic.JPG" alt="">
             <h4>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</h4>
             <p>Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis. <br><strong>Read more »</strong></p>
         </div>
         <div class="col-lg-4 o_pr_middle">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/pr-middle-pic.jpg" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/pr-middle-pic.JPG" alt="">
             <h4>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</h4>
             <p>Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis. <br><strong>Read more »</strong></p>
         </div>
         <div class="col-lg-4 o_pr_right">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/pr-right-pic.jpg" alt="">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/pr-right-pic.JPG" alt="">
             <h4>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</h4>
             <p>Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis. <br><strong>Read more »</strong></p>
         </div>
@@ -64,21 +64,21 @@
     <h3 class="o_mission_title o_events_title">EVENTS</h3>
         <div class="row">
             <div class="col-lg-4 o_events_left">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/events-left.jpg" alt="">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/events-left.JPG" alt="">
                 <section>
                     <p>Nummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation Lorem ipsum dolor sit amet, consectetuer adipiscing</p>
                     <h6>– Duis Autem</h6>
                 </section>
             </div>
             <div class="col-lg-4 o_events_middle">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/events-middle.jpg" alt="">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/events-middle.JPG" alt="">
                 <section>
                     <p>Nummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation Lorem ipsum dolor sit amet, consectetuer adipiscing</p>
                     <h6>– Lellet Biranapillai</h6>
                 </section>
             </div>
             <div class="col-lg-4 o_events_right">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/events-right.jpg" alt="">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/events-right.JPG" alt="">
                 <section>
                     <p>Nummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation Lorem ipsum dolor sit amet, consectetuer adipiscing</p>
                     <h6>– Rilim Rebamat</h6>

@@ -44,24 +44,24 @@
         <div class="col-lg-4 o_pr_left">
             <img src="<?php echo get_template_directory_uri(); ?>/images/pr-left-pic.jpg" alt="">
             <h4>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</h4>
-            <p>Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis. <br>Read more »</p>
+            <p>Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis. <br><strong>Read more »</strong></p>
         </div>
         <div class="col-lg-4 o_pr_middle">
             <img src="<?php echo get_template_directory_uri(); ?>/images/pr-middle-pic.jpg" alt="">
             <h4>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</h4>
-            <p>Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis. <br>Read more »</p>
+            <p>Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis. <br><strong>Read more »</strong></p>
         </div>
         <div class="col-lg-4 o_pr_right">
         <img src="<?php echo get_template_directory_uri(); ?>/images/pr-right-pic.jpg" alt="">
             <h4>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</h4>
-            <p>Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis. <br>Read more »</p>
+            <p>Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis. <br><strong>Read more »</strong></p>
         </div>
     </div>
 </div>
 <!-- Events section -->
 <div class="o_events_wrapper">
-<h3 class="o_mission_title o_events_title">EVENTS</h3>
     <div class="o_events_container">
+    <h3 class="o_mission_title o_events_title">EVENTS</h3>
         <div class="row">
             <div class="col-lg-4 o_events_left">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/events-left.jpg" alt="">
@@ -86,4 +86,24 @@
             </div>
         </div>
     </div>
+</div>
+<!-- Sign up section -->
+<div class="o_sign_up_conatiner">
+    <h3>Be part of the change</h3>
+    <p>Sign up to receive stories and updates from Sitara’s Story</p>
+    <form class="o_form_container">
+        <div class="form-group">
+            <div class="row">
+                <div class="col-lg-4">
+                    <input type="text" class="form-control-text" id="" placeholder="First Name*">
+                </div>
+                <div class="col-lg-4">
+                    <input type="text" class="form-control-text" id="" placeholder="Last Name*">
+                </div>
+                <div class="col-lg-4">
+                    <input type="text" class="form-control-text" id="" placeholder="Email*">
+                </div>
+            </div>
+        </div>
+    </form>
 </div>

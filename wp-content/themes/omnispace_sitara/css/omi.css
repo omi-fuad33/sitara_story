@@ -165,11 +165,12 @@
 /* events */
 .o_events_wrapper{
     background-color: #fff0d8;
-    overflow: hidden;
+    padding-bottom: 50px;
 }
 .o_events_container{
     width: 80%;
     margin: 0 auto;
+    padding-top: 10px;
 }
 .o_events_container div{
     padding-left: 30px;
@@ -192,4 +193,42 @@
     padding: 20px 30px;
     margin-top: 20px;
     border: 5px solid #f79548;
+}
+/* Sign up */
+.o_sign_up_conatiner{
+    background-color: #414042;
+    overflow-x: hidden;
+    padding-bottom: 50px;
+}
+.o_sign_up_conatiner h3{
+    text-align: center;
+    margin-top: 50px;
+    color: #e78900;
+    font-weight: 600;
+
+}
+.o_sign_up_conatiner p{
+    text-align: center;
+    color: #ffffff;
+    margin-top: 10px;
+}
+.o_form_container{
+    width: 60%;
+    margin: 0 auto; 
+}
+.o_form_container input{
+    width: 100%;
+}
+.o_footer_wrapper{
+    background-color: #eeebe4;
+}
+.o_footer_wrapper div{
+    font-size: 17px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.o_footer_wrapper div span{
+    margin-right: 5px;
+    font-size: 20px;
 }

@@ -11,8 +11,8 @@
 
 ?>
 
-	<footer id="colophon" class="site-footer">
-		
+	<footer id="colophon" class="site-footer o_footer_wrapper">
+		<div>Spread the word! Help us build a global movement for change: <span><i class="fa fa-facebook-square"></i></span><span><i class="fa fa-twitter-square"></i></span><span><i class="fa fa-youtube-square"></i></span><span><i class="fa fa-linkedin-square"></i></span></div>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 

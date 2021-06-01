@@ -122,7 +122,7 @@
 /* stats */
 .o_stats_container{
     width: 80%;
-    margin: 0 auto;
+    margin: 70px auto;
 }
 .o_stat_div{
     text-align: center;
@@ -141,4 +141,55 @@
 }
 .o_stat_div p{
     font-style: italic;
+}
+/* PRESS RELEASE */
+.o_press_release_container{
+    width: 80%;
+    margin: 0 auto;
+}
+.o_press_release_container div{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.o_press_release_container h4{
+    font-weight: 600;
+    margin-top: 30px;
+    padding-right: 30px;
+}
+.o_press_release_container p{
+    padding-right: 30px;
+}
+.o_pr_left, .o_pr_right{
+    margin-top: 5%;
+}
+/* events */
+.o_events_wrapper{
+    background-color: #fff0d8;
+    overflow: hidden;
+}
+.o_events_container{
+    width: 80%;
+    margin: 0 auto;
+}
+.o_events_container div{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.o_events_title{
+    margin-top: 20px;
+}
+.o_events_left section, .o_events_right section{
+    background-color: #f79548;
+    padding: 20px 30px;
+    color: #ffffff;
+    margin-top: 20px;
+}
+.o_events_left section h6, .o_events_right section h6,.o_events_middle section h6{
+    font-weight: 600;
+    text-align: right;
+}
+.o_events_middle section{
+    padding: 20px 30px;
+    margin-top: 20px;
+    border: 5px solid #f79548;
 }

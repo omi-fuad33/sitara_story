@@ -155,12 +155,17 @@ function omnispace_sitara_scripts() {
 	wp_enqueue_style ('bootstrap', "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css");
 
 	wp_enqueue_style ('omi-style', get_template_directory_uri().'/css/omi.css');
+	wp_enqueue_style ('naeeb-style', get_template_directory_uri().'/css/naeeb.css');
     
     wp_enqueue_script( 'jquery-js', "https://code.jquery.com/jquery-3.4.1.min.js");
 
 	wp_enqueue_script('materialize-js', "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js");
+	
+	 wp_enqueue_script( 'ajax', 'https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js');
     
     wp_enqueue_script( 'omi-js', get_template_directory_uri() . '/js/omi.js' );
+    wp_enqueue_script( 'form', get_template_directory_uri() . '/js/form.js' );
+    wp_enqueue_script( 'form', get_template_directory_uri() . '/story/form.js' );
 
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {

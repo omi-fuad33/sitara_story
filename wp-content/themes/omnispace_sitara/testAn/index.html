@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Subscribe here!</title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" >
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <link rel="stylesheet" href="form.css" >
+        <script src="form.js"></script>
+    </head>
+    <body >
+        <br>
+        <div class="logo"><img src="images/logo.png"><h3 class="heading">নিয়মিত অনন্যা সংখ্যা বুঝে নিতে  আজই সাবস্ক্রাইব করুন!</h3>
+        </div>
+
+
+
+
+
+        <div class="row rowMain">
+            <div class="container form-top">
+                <div class="c1 col-lg-3 col-md-1 col-sm-6 col-xs-6"><img src="images/c1.PNG" class="img-fluid rounded" alt="..."></div>
+
+                <div class="c2 col-lg-3 col-md-1 col-sm-6 col-xs-6"><img src="images/c1.PNG" class="img-fluid rounded" alt="..."></div>
+
+                <div class="c3 col-lg-3 col-md-1  col-sm-6 col-xs-6 panel panel-danger">
+                    <div class="panel-body">
+
+                        <form id="reused_form">
+                            <div class="form-group">
+                                <label >নাম</label>
+                                <input type="text" name="name" required class="form-control" placeholder="আপনার নাম">
+                            </div>
+                            <div class="form-group">
+                                <label >ইমেইল</label>
+                                <input type="email" name="email" required class="form-control" placeholder="আপনার ইমেইল অ্যাড্রেস">
+                            </div>
+                            <div class="form-group">
+                                <label >মোবাইল নাম্বার</label>
+                                <input type="tel" name="phone" required class="form-control" placeholder="যে নাম্বার থেকে টাকা পাঠিয়েছেন">
+                            </div>
+                              <!--<div class="form-group">
+                                <label >Trx ID</label>
+                                <input type="text" name="trx" required class="form-control" placeholder="Contact Number">
+                            </div>-->
+                            
+                            <div class="form-group">
+                                <label >প্যাকেজ সিলেক্ট করুন</label>
+                                <select name="package">                
+                                    <option value ="package1">Package1</option>
+                                    <option value ="package2">Package2</option>
+
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <button class="btn btn-raised btn-lg btn-warning" type="submit">Send</button>
+                            </div>
+                        </form>
+
+
+
+                        <div id="error_message" style="width:100%; height:100%; display:none; ">
+                            <h4>
+                                Error
+                            </h4>
+                            ভুল থাকার কারণে মেইলটি সেন্ড হয়নি।
+                        </div>
+                        <div id="success_message" style="width:100%; height:100%; display:none; ">
+                            <h2 style="color:blue;font-size:28px;"> ধন্যবাদ! আপনার মেইলটি সেন্ড হয়েছে। দ্রুত আপনার সাথে মেইলে যোগাযোগ করা হবে।</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="c4 col-lg-3 col-md-3 col-sm-6 col-xs-8"><img src="images/Cover.jpg" class="img-fluid rounded" alt="..."></div>
+
+
+
+            </div>
+
+        </div>
+        <br><br>
+
+        <!--Footer-->
+        <div class="row">
+             <div class="col lg-12 col-md-12 col-sm-12 col-xs-12 footer"><img src="images/footer.PNG" class="img-responsive" alt="..."></div>
+        </div>
+    </body>
+</html>

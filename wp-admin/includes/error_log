@@ -1,0 +1,8 @@
+[29-Oct-2021 03:47:52 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Filesystem_Base' not found in /home/asmb5kfkeiyu/public_html/wp-admin/includes/class-wp-filesystem-ftpsockets.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/asmb5kfkeiyu/public_html/wp-admin/includes/class-wp-filesystem-ftpsockets.php on line 16
+[29-Oct-2021 14:55:43 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_List_Table' not found in /home/asmb5kfkeiyu/public_html/wp-admin/includes/class-wp-comments-list-table.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/asmb5kfkeiyu/public_html/wp-admin/includes/class-wp-comments-list-table.php on line 18

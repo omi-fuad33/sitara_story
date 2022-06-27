@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--<meta name="description" content="Tell your story in a way that will make the reader cry, laugh, get goose bumps or say “Wow!”">-->
+        <!--<meta property="og:title" content="Submit your story here" />-->
+        <!--<meta property="og:url" content="https://sitarasstory.com/story/" />-->
+        <!--<meta property="og:description" content="Tell your story in a way that will make the reader cry, laugh, get goose bumps or say “Wow!”">-->
+        <!--<meta property="og:image" content="https://sitarasstory.com/story/images/stor.png" />-->
+        <meta property="og:title" content="SiTara's Story" />
+        <meta property="og:description" content="A good story causes tears, laughter, goose bumps or any combination of these. We cannot wait to hear your stories."/>
+        <meta property="og:url" content="https://sitarasstory.com/story/" />
+        <meta property="og:image" content="https://sitarasstory.com/story/images/pre.png" />
+        <!--<meta property="og:type" content="article" />-->
+        <title>Submit your story here</title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" >
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <link rel="stylesheet" href="form.css" >
+        <link rel="icon" type="image/png" href="https://sitarasstory.com/wp-content/themes/omnispace_sitara/images/logo.jpg"/>
+        <script src="form.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+@font-face {
+  font-family: robotoRegular;
+  src:  url('fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+  font-family: robotoMedium;
+  src:  url('fonts/Roboto-Medium.ttf');
+}
+ .o_header_container{
+    height: 100px;
+    background-color: #72369F;
+    background-color:#ad75ad;
+    width: 100%;
+    z-index: 9;
+    position: fixed;
+    /*margin-top:-0.5%;*/
+     /*border:2px solid red;*/
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  height: 100px;
+    background-color: #72369F;
+    background-color:#ad75ad;
+    width: 100%;
+    z-index: 9;
+    /*position: fixed;*/
+    /*margin-top:-0.5%;*/
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 36px 16px;
+  /*text-decoration: none;*/
+  font-size: 18px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 800;
+  text-shadow: 0 0 2px #000;
+  line-height: 20px;
+  font-family: robotoMedium;
+}
+
+.n_log
+{
+    padding:0!important;
+    margin-left:60px;
+    margin-right:40px;
+}
+/*.topnav a:hover {*/
+/*    text-decoration:none;*/
+/*  background-color: #E68200;*/
+/*}*/
+
+/*.topnav a.active {*/
+/*  background-color: #04AA6D;*/
+/*  color: white;*/
+/*}*/
+
+.topnav .icon {
+  display: none;
+}
+
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+  
+}
+
+@media screen and (max-width: 600px) {
+    .n_storyImage
+{
+     width:300px!important;
+    float:none!important;
+    
+}
+    
+    .topnav{
+        height:auto;
+        width:auto;
+        }
+  .topnav.responsive {
+      position: relative;
+      width:70%;
+      
+  }
+  
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive .n_log{
+      display:none!important;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: center;
+    font-size:18px;
+    line-height:1.5;
+  }
+  .topnav.responsive .o_donate
+  {
+      margin-left:0px;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="topnav"  id="myTopnav">
+  <a class="n_log" href="https://sitarasstory.com/"> <img class="o_logo" src="images/logo.jpg" alt="image not found" align="left"></a>
+  <a href="https://sitarasstory.com/our-work/" class="active">OUR WORK</a>
+  <a href="https://sitarasstory.com/about-us/">ABOUT US</a>
+  <a href="https://sitarasstory.com/reports/">ANNUAL<br>REPORTS</a>
+  <a href="https://sitarasstory.com/blogs/">BLOGS</a>
+  <a href="https://sitarasstory.com/#media">MEDIA</a>
+  <a href="https://sitarasstory.com/#events">EVENTS</a>
+  <a href="https://sitarasstory.com/get-involved/">GET<br>INVOLVED</a>
+  <a href="https://sitarasstory.com/podcast-page/">PODCAST</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars fa-2x"></i>
+  </a>
+  <a href="http://sitarasstory.com/donate/"><button class="o_donate">DONATE</button></a>
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+    </head>
+    
+    <body >
+        <br>
+        <!--<div class="logo"><img src="images/logo.png"><h3 class="heading">Write Your story!</h3>-->
+        <!--</div>-->
+
+   <div class="n_contButton">
+       <!--<a href="https://sitarasstory.com/" class="button robotoRegular">SiTaras Story Homepage</a>-->
+        <a href="https://sitarasstory.com/story/#eligibility" class="button">Eligibility</a>
+   <a href="https://sitarasstory.com/story/#guidelines" class="button">Guidelines</a>
+  
+   <a href="https://sitarasstory.com/story/#whatnext" class="button">What Happens Next?</a>
+   <a href="https://sitarasstory.com/story/#submit" class="button">Submit Here</a>
+   </div>
+   
+   <div class="n_orange"></div>
+   <div>
+   
+   <style>
+  
+   @font-face {
+  font-family: robotoRegular;
+  src:  url('../fonts/Roboto-Regular.ttf');
+}
+  @font-face {
+  font-family: robotoRegular;
+  src:  url('../fonts/Roboto-Regular.ttf');
+}
+  @font-face {
+  font-family: robotoRegular;
+  src:  url('../fonts/Roboto-Regular.ttf');
+}
+.o_logo
+{
+    height:100px;
+    width:160px;
+    object-fit:cover;
+}
+.button {
+  background-color:#ad75ad;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  cursor: pointer;
+  font-family:robotoMedium;
+  
+}
+.o_donate
+{
+  background-color: #E68200;
+  border: 2px solid black;
+  border-radius:5px;
+  margin-top:-10px;
+  margin-left:100px;
+  color: white;
+  padding: 10px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer; 
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 800;
+  text-shadow: 0 0 2px #000;
+  line-height: 20px;
+  font-family:robotoMedium;
+}
+.n_storyImage
+{ 
+    margin:0 auto;
+    /*width:600px;*/
+    /*height:400px;*/
+    /*object-fit:cover;*/
+     width:40%;
+     margin-left:5%;
+    float:right;
+}
+.n_ACT
+{
+    font-size:14px!important;
+}
+
+</style>
+
+
+
+   <div class="n_cont n_robotoRegular">
+       
+       <!--<h3>SiTara’s Story presents,</h3>-->
+       <div class=""><img class="n_storyImage" src="images/stor.png"></div><br>
+       <h2>What is your Story?</h2>
+      <h3>Writing in the time of Covid.</h3><br>
+      
+       
+       <p>Strange times we are living in!</p>
+       <p>This lockdown, press conference every day, people wearing masks everywhere, empty streets.</p>
+       <p>Home schooling, working in PJs, marathon zoom meetings. Feeling trapped?</p>
+       <p>One day, we might tell our children and grandchildren about this strange time we are going through.  When we stopped shaking hands, we could not see each other’s smiles. We will tell them about 1.5m distance.</p>
+       <p>And those of us, who speak a different language, who call our parents everyday who live thousands of miles away, who could not see them for years due to the travel ban, we still imagine the last hug. It is very hard. Migrants, refugees, asylum seekers, people from CALD background– may be more affected.</p>
+       <p>It's very important to record this strange time. For us, for our future generations, for policy makers.</p>
+       <p>Here you are! Yes, <b>SiTara’s Story is organising a story writing competition for people of Canberra, the Ken Behrens.</b></p> 
+       <p>Write your feelings, experiences, your dreams and observations in lockdown this year or last year, so we can look back in later years and remember what this pandemic was like.</p>
+       <p>We want to hear your story. Open up your mind, write anything you feel, even dreamt of. Like, what do you feel about this “new normal”? Did you struggle, how? Or were you all alone?</p>
+       <p>How do you keep in touch with your loved ones far away? Has it brought you closer to your immediate family? Has it changed your relationship with them? Have you lost anyone?</p>
+       <p>Tell us something positive – have you become a better, stronger human being?</p>
+       <p>It is crucial that we understand you.</p><br>
+      
+           <h3 id="eligibility">Eligibility</h3>
+            <p>
+                <ol>
+                    <li>You must identify as an ACT resident.</li>
+                <li>You must be 18 years and older to take part.</li>
+                </ol>
+            </p><br>
+            
+           <h3 id="guidelines">Guidelines </h3>
+            <p> 
+            <ol><li>COVID-19 must be a central factor in your writing, where the writing:</li>
+            <ol type="a"><li>occurred as a result COVID-19;</li>
+                         <li>was inspired by COVID-19; and</li>
+                         <li>is about COVID-19.</li>
+            </ol>
+           
+            <li>Keep your story to 1000 words or less.</li>
+            <li>There will be three categories:</li> 
+            <ul><li>Poetry</li>
+            <li>Creative writing</li>
+            <li>Cultural expository </li>
+            </ul>
+            </ol>
+            
+            <p>Tell your story in a way that will make the reader cry, laugh, get goose bumps or say “Wow!”</p>
+            
+            <p>Don’t be afraid to speak from the heart. Many people tell personal stories for the first time, and they find it to be a cathartic and productive experience. We do let you use a pen name for your story when published if you do not want to use your real name.
+            </p>
+            <br>
+            
+             <h3>A few more tips about submitting</h3>
+             <p>
+                 <ol>
+                     <li>Please submit your work that have not been previously published. The only exception to this is if your work has only been published in a small local publication with limited circulation or on your own blog.</li>
+                 
+                 <li>Entrants must enter via the specified portal.</li>
+                 
+                 <li>Entrants must not infringe a third party’s intellectual property rights; or, breach this competition’s terms and conditions.</li>
+                 
+                 <li>Last date of story submission: February 10, 2022.</li>
+                 
+                 <li>Any private information will adhere to the Australian Privacy Policies.</li>
+                 
+                 <li>Entrants will be notified upon success entry into the competition.</li>
+               
+                 <li>Winners of this competition will be notified via email on the 15th of March 2022.</li>
+                 
+                <li>Prizes will be delivered either at the ceremony or by postage within two month of winning. Prizes are not transferrable.</li>
+                </ol>
+                 
+              </p>
+              <br>
+              <h3 id="whatnext">What happens next?<br></h3>
+              <p>After you submit your work:</p>
+              <ul>
+              <li>Please be patient after you press the <b>Send </b>button.</li>
+              <li>Wait for the next screen to come up with a message that says: Congrats! your mail has been sent succesfully.</li>
+              <li>This is your confirmation that we have received your work.</li>
+              <li>If there is an error, there will be a message which will appear if your submission does not go through. </li>
+              <li>Any further enquiries, please email us at <a href= "mailto:sitarasstory@yahoo.com"><b>sitarasstory@yahoo.com</b>.</a></li>
+              </ul>
+              
+                  <p>If we like your story,</p> 
+                  <ul>
+                      <li>We will notify you by e-mail.</li>
+                      <li>Prize $200/$100/$50.</li>
+                      <li>Feature on SiTara Story’s website and on selected online and paper based publications (with your consent).</li>
+                      <li>You will get an opportunity to read your own story at our award giving ceremony (only if you want to).</li>
+                </ul>
+                 </p>
+                 
+                 <p>A good story causes tears, laughter, goose bumps or any combination of these. We cannot wait to hear your stories.</p>
+                 <br>
+      
+    
+               <marquee><span class="" id="submit">Please fill out the form and send it to us</span></marquee>
+          
+
+                <div class="col-lg-offset-3 col-lg-6 col-md-offset-3 col-md-6 col-sm-12 col-xs-12 panel panel-danger">
+                
+                    <div class="panel-body">
+
+                        <form id="reused_form">
+                            <div class="form-group">
+                                <label>Your Name</label>
+                                <input type="text" name="name" required class="form-control" placeholder="Your Name">
+                            </div>
+                            <div class="form-group">
+                                <label >Your Email</label>
+                                <input type="email" name="email" required class="form-control" placeholder="Your Email Address">
+                            </div>
+                             <div class="form-group">
+                                <label >Your Address</label>
+                                <input type="text" name="address" required class="form-control" placeholder="Your Address">
+                            </div>
+                             <div class="form-group">
+                                <label >Your Phone Number</label>
+                                <input type="tel" name="phone" required class="form-control" placeholder="Your Phone Number">
+                            </div>
+                          
+                            <div class="form-group">
+                                <label >Story Title</label>
+                                <input type="text" name="title" required class="form-control" placeholder="Story Title">
+                            </div>
+                            
+                
+                            <div class="form-group">
+                                <label >Story Category</label>
+                                <select name="category">                
+                                    <option value ="Poetry">Poetry</option>
+                                    <option value ="Creative writing">Creative writing</option>
+                                    <option value ="Cultural expository">Cultural expository</option>
+
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label >Write Your Story</label>
+                                <!--<input type="textarea" rows="10" name="name" required class="form-control" placeholder="Write Here">-->
+                                <textarea rows="10" name="story" required class="form-control" placeholder="Write Here"></textarea>
+                            </div>
+                            
+                     <!--<div class="form-group">
+                                <label >Trx ID</label>
+                                <input type="text" name="trx" required class="form-control" placeholder="Contact Number">
+                            </div>-->
+                            <div><p class="n_ACT">By entering you acknowledge that the ACT Heritage Library
+
+                        <ol>
+                            <li class="n_ACT">will store and preserve your entry.</li>
+                            <li class="n_ACT">will provide access to your entry in its reading room and online.</li>
+                        <li class="n_ACT">may give permission for the exhibition, publication or display of your story, with acknowledgement of you as creator.</li></ol></p></div><br>
+
+                            <div class="form-group">
+                                <button class="btn btn-raised btn-lg btn-warning" type="submit">Send</button>
+                            </div>
+                        </form>
+
+
+
+                        <div id="error_message" style="width:100%; height:100%; display:none; ">
+                            <h4 class="robotoMedium">
+                                Error
+                            </h4>
+                            Mail sending failed due to an eror
+                        </div>
+                        <div id="success_message" style="width:100%; height:100%; display:none; ">
+                            <h2 style="color:blue;font-size:28px; font-family:robotoMedium"> Congrats! Your mail has been sent succesfully.</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <!--<div class="c4 col-lg-3 col-md-3 col-sm-6 col-xs-8"><img src="images/Cover.jpg" class="img-fluid rounded" alt="..."></div>-->
+
+
+
+            </div>
+
+
+        
+        <br><br>
+
+        <!--Footer-->
+        
+    </body>
+</html>

@@ -1,0 +1,4 @@
+[08-Aug-2018 06:37:49 UTC] PHP Warning:  require_once(./vendor/autoload.php): failed to open stream: No such file or directory in /home/omniweb3971/public_html/testAn/handler.php on line 9
+[08-Aug-2018 06:37:49 UTC] PHP Fatal error:  require_once(): Failed opening required './vendor/autoload.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/omniweb3971/public_html/testAn/handler.php on line 9
+[08-Aug-2018 06:38:18 UTC] PHP Warning:  require_once(./vendor/autoload.php): failed to open stream: No such file or directory in /home/omniweb3971/public_html/testAn/handler.php on line 9
+[08-Aug-2018 06:38:18 UTC] PHP Fatal error:  require_once(): Failed opening required './vendor/autoload.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/omniweb3971/public_html/testAn/handler.php on line 9

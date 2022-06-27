@@ -1,0 +1,21 @@
+[06-Oct-2021 10:19:36 UTC] PHP Fatal error:  Uncaught Error: Class 'Walker' not found in /home/asmb5kfkeiyu/public_html/wp-includes/class-walker-nav-menu.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/asmb5kfkeiyu/public_html/wp-includes/class-walker-nav-menu.php on line 17
+[06-Oct-2021 15:40:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/asmb5kfkeiyu/public_html/wp-includes/locale.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/asmb5kfkeiyu/public_html/wp-includes/locale.php on line 11
+[05-Nov-2021 11:34:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home/asmb5kfkeiyu/public_html/wp-includes/locale.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/asmb5kfkeiyu/public_html/wp-includes/locale.php on line 11
+[06-Nov-2021 14:48:40 UTC] PHP Fatal error:  Uncaught Error: Class 'Walker' not found in /home/asmb5kfkeiyu/public_html/wp-includes/class-walker-nav-menu.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/asmb5kfkeiyu/public_html/wp-includes/class-walker-nav-menu.php on line 17
+[18-Mar-2022 00:18:34 UTC] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home/asmb5kfkeiyu/public_html/wp-includes/functions.php on line 8
+[18-Mar-2022 00:18:34 UTC] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home/asmb5kfkeiyu/public_html/wp-includes/functions.php on line 8
+[18-Mar-2022 00:18:34 UTC] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/asmb5kfkeiyu/public_html/wp-includes/functions.php on line 8
+[18-Mar-2022 00:18:34 UTC] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home/asmb5kfkeiyu/public_html/wp-includes/functions.php on line 8
+[18-Mar-2022 00:18:34 UTC] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/asmb5kfkeiyu/public_html/wp-includes/functions.php on line 8

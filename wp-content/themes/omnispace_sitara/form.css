@@ -1,0 +1,120 @@
+html
+{
+  height:100%;  
+}
+
+body{    
+  /*background:url('images/jurassic-coast-1406284_1920.jpg') no-repeat;
+ */
+    background: linear-gradient(to right, white ,#e6c698);
+  height:100%;
+  width:100%;
+    overflow-x: hidden;
+
+}
+
+
+
+./*form-top{
+	margin-top: 30px;
+}
+.panel{
+	box-shadow: 0 1px 6px 0 rgba(0,0,0,.12), 0 1px 6px 0 rgba(0,0,0,.12);
+	border-radius: 10px;
+    border: 0;
+}
+@-moz-document url-prefix() {
+    .form-control{
+    	height: auto;
+    }
+}*/
+.rowMain
+{
+    width:100vw;
+    background-clip: border-box;
+   /* background: linear-gradient(to right, white ,#e6c698);*/
+    background: red;
+    height: 772px;
+    
+}
+    /*height: 442px;*/
+    
+   /* overflow-x: hidden;*/
+     /*margin: 0 auto;
+
+
+*/
+
+/*.c1
+{
+    
+    margin-top: 30px;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+    
+}
+.c2
+{
+    
+    margin-top: 50px;
+    
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+}
+.c4
+{
+    margin-left: 40px;
+    margin-top: 20px;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+}*/
+
+.c1
+{
+    margin-left:-110px;
+    margin-right: 10px;
+}
+.c2
+{
+    
+    margin-right:  10px;
+}
+
+.c3
+{
+    
+    margin-right: 10px;
+}
+
+.heading{
+    display: inline-block!important;
+    margin: 20px 0;
+    text-align: right;
+    float: right;
+    vertical-align: middle;
+    font-size: 1.7vw;
+    line-height: initial;
+    margin-right: 30vw;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(SavoyBold.ttf);
+}
+    
+h3
+{
+    font-family: 'savoybold',sans-serif;
+    font-weight: normal;
+    color: #000;
+}
+
+.logo
+{
+    margin-left: 10vw;
+}
+.footer
+{
+   
+    overflow-x: hidden;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+    margin:3px;
+}
+
